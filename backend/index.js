@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://trendly-frontend1.onrender.com" , "http://localhost:5174"],
+ origin:["https://trendly-frontend1.onrender.com" , "https://trendly-admin.onrender.com"],
  credentials:true
 }))
 
